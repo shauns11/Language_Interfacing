@@ -70,7 +70,7 @@ rcall: A = matrix(1:6, nrow=2, byrow = TRUE)
 mat list r(A)
 
 rcall: mylist <- list(a=c(1:10))
-display r(mylist)
+display r(mylist_a)
     
 rcall: l <- T
 display r(l)
