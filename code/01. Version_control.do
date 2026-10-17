@@ -27,13 +27,11 @@ cd "C:/Language_Interfacing"
 *Put scripts in code folder
 cd "C:/Language_Interfacing"
 !git status                           
-!git add "./code"
-!git add "./input_code"
+!git add -- "./code" "./code/input_code"
 !git status 
-!git commit -m "Commit initial scripts"            
-!git push -u origin main             
-
-
+*Ready to commit:
+*!git commit -m "Commit staged code changes"            
+*!git push -u origin main             
 
 
 
