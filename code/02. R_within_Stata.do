@@ -4,7 +4,7 @@
     Date:       August 2026
     Purpose:    Integrating Stata and R in a do-file
     Input:      Commands
-	Location:   "C:/Language_Interfacing/code/R_within_Stata"
+	Location:   "C:/Language_Interfacing/code/02. R_within_Stata"
 ==============================================================================*/
 
 
@@ -115,13 +115,14 @@ display _newline "Run `date' at `time'"
 
 
 !git status
-!git add "./code/R_within_Stata.do"
-!git add "./code/input_code/describe_auto.r"
-!git commit -m "Commit R_within_Stata"             // commit the local changes
+!git add "./code"
+!git add "./code/input_code"
+!git commit -m "Commit 2 (R_within_Stata)"             // commit the local changes
 !git push -u origin main                           // push locally
 
 
 log close
+
 
 
 

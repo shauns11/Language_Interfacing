@@ -30,8 +30,8 @@ cd "C:/Language_Interfacing"
 !git add "./code"
 !git add "./input_code"
 !git status 
-!git commit -m "Commit 1"             // commit the local changes
-!git push -u origin main              // push locally
+!git commit -m "Commit initial scripts"            
+!git push -u origin main             
 
 
 
