@@ -4,7 +4,7 @@
 #Date:       August 2026
 #Purpose:    Run python script within R_Studio.
 #Input:      Commands
-#Location:   "C:/Language_Interfacing/code/Python_within_R.R"
+#Location:   "C:/Language_Interfacing/code/04. Python_within_R.R"
 #==============================================================
   
 setwd("C:/Language_Interfacing")
@@ -65,15 +65,14 @@ system2("git", c("remote", "-v"))
 #stage.
 system2("git", c(
   "add",
-  "./code/Python_within_R.R",
-  "./code/input_code/import_auto.py",
-  "./code/input_code/add.py"
+  "./code/",
+  "./code/input_code/"
 ))
 
 #commit.
 system2(
   "git",
-  args = c("commit", "-m", shQuote("Commit Python_within_R"))
+  args = c("commit", "-m", shQuote("Commit 4 (Python_within_R"))
 )
 
 #push to remote.
