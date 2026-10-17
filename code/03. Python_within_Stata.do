@@ -5,7 +5,7 @@
     Date:       August 2026
     Purpose:    Integrating Stata and Python in a do-file
     Input:      Commands
-	Location:   "C:/Language_Interfacing/code/Python_within_Stata"
+	Location:   "C:/Language_Interfacing/code/03. Python_within_Stata"
 ==============================================================================*/
 
 
@@ -359,7 +359,6 @@ capture ssc install libjson
 capture ssc install moss
 capture ssc install lgraph
 
-!mkdir "./dbnomics_python"
 cd "./dbnomics_python"
 
 python:
@@ -439,11 +438,11 @@ foreach f of local files {
 }
 
 cd "C:/Language_interfacing"
+!git add "./code"
+!git add "./code/input_code"
 
-!git add "./code/input_code/pyex.py" "./code/input_code/pyex1.do" "./code/input_code/pyex2.do" "./code/input_code/Python_script.py"
-!git add "./code/Python_within_Stata.do" 
-!git commit -m "Commit Python_within_Stata"             // commit the local changes
-!git push -u origin main                                // push locally
+!git commit -m "Commit 3 (Python_within_Stata)"             
+!git push -u origin main                               
 
 di "Finished"
 *Display date and time.
